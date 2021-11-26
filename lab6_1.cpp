@@ -2,7 +2,7 @@
 using namespace std;
 int main(){
     int even = 0,odd = 0;
-    int NN = 0,num[NN+1];
+    int NN = 0,num[100];
     while(num[NN-1] != 0 or NN == 0){
             cout << "Enter an integer: ";
             cin >> num[NN];
